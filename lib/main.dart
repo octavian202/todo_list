@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './tabs/main_tab.dart';
+import 'tabs/main-tab/main_tab.dart';
 import './models/ui_colors.dart';
 
 void main() {
@@ -31,11 +31,11 @@ class MyApp extends StatelessWidget {
             ),
             appBar: AppBar(
               bottom: PreferredSize(
-                preferredSize: Size(100, 15),
+                preferredSize: Size(100, 10),
                 child: Container(
                   color: appbarColor,
                   width: double.infinity,
-                  height: 71,
+                  height: 60,
                   child: TabBar(
                     tabs: [
                       Tab(
